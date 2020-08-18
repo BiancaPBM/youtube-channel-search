@@ -1,0 +1,25 @@
+img{
+  width: 200px;
+  height: 200px;
+  margin-left: 2%;
+  margin-top:2%;
+  border-color: white;
+  border-style: ;
+}
+
+mat-card{
+  color:white;
+  margin:10px;
+  width: 80vh;
+  background-color: #3f51b5;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.mat-card-image:first-child{
+margin-top: 0px;
+border-radius: 10px;
+}
+
+mat-card-content{
+  margin-left: 10px;
+}

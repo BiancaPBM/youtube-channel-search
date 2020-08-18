@@ -1,0 +1,10 @@
+<div class = "search-box">
+  <mat-form-field >
+    <input matInput #channelName type="text" placeholder="Search" autofocus>
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click) ="getChannels()">  get Channels</button>
+</div>
+
+<div class = "video-cards"*ngFor="let result of results">
+<app-youtube-video [result] = "result">
+</app-youtube-video>

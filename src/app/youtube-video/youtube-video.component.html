@@ -1,0 +1,12 @@
+<mat-card  >
+  <mat-card-header>
+    <mat-card-title>{{result.title}}</mat-card-title>
+  </mat-card-header>
+  <a target ="_blank" href="https://www.youtube.com/watch?v={{result.videoId}}">
+    <img mat-card-image src = {{result.url}}>
+ </a>
+  <mat-card-content>
+    <p>{{result.description}}</p>
+    <p>{{result.channel}}</p>
+  </mat-card-content>
+</mat-card>
